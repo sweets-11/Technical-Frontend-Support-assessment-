@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BOGO Offer</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">YAY! It's BOGO</div>
+
+      <!-- 1 Units Option -->
+
+      <div class="option" onclick="selectOption(1, 10.00, this)">
+        <div class="units-container">
+          <label>
+            <input type="radio" name="unitOption" class="unit-radio" />
+            <span class="unit-title">1 Units</span>
+          </label>
+          <span class="discount">10% Off</span>
+          <div class="price">$10.00 USD</div>
+        </div>
+        <span class="standard-price">Standard Price</span>
+        <div class="original-price">$24.00 USD</div>
+        <div class="unit-selection-container">
+          <div class="unit-selection">
+            <div>#1</div>
+            <span class="size">Size</span>
+            <span class="color">Color</span>
+            <select>
+              <option>S</option>
+              <option>M</option>
+              <option>L</option>
+            </select>
+            <select>
+              <option>Colour</option>
+              <option>Red</option>
+              <option>Blue</option>
+            </select>
+          </div>
+          <div class="unit-selection">
+            <div>#2</div>
+            <select>
+              <option>S</option>
+              <option>M</option>
+              <option>L</option>
+            </select>
+            <select>
+              <option>Colour</option>
+              <option>Red</option>
+              <option>Blue</option>
+            </select>
+          </div>
+        </div>
+      </div>
+
+      <!-- 2 Units Option -->
+      <div class="option" onclick="selectOption(2, 18.00, this)">
+        <div class="units-container">
+          <span class="most-popular">Most Popular</span>
+          <label>
+            <input type="radio" name="unitOption" class="unit-radio" />
+            <span class="unit-title">2 Units</span>
+          </label>
+          <span class="discount">20% Off</span>
+          <div class="price">$18.00 USD</div>
+        </div>
+        <div class="original-price">$24.00 USD</div>
+        <div class="unit-selection-container">
+          <div class="unit-selection">
+            <div>#1</div>
+            <span class="size">Size</span>
+            <span class="color">Color</span>
+            <select>
+              <option>S</option>
+              <option>M</option>
+              <option>L</option>
+            </select>
+            <select>
+              <option>Colour</option>
+              <option>Red</option>
+              <option>Blue</option>
+            </select>
+          </div>
+          <div class="unit-selection">
+            <div>#2</div>
+            <select>
+              <option>S</option>
+              <option>M</option>
+              <option>L</option>
+            </select>
+            <select>
+              <option>Colour</option>
+              <option>Red</option>
+              <option>Blue</option>
+            </select>
+          </div>
+        </div>
+      </div>
+
+      <!-- 3 Units Option -->
+      <div class="option" onclick="selectOption(3, 24.00, this)">
+        <div class="units-container">
+          <label>
+            <input type="radio" name="unitOption" class="unit-radio" />
+            <span class="unit-title">3 Units</span>
+          </label>
+          <span class="discount">20% Off</span>
+          <div class="price">$24.00 USD</div>
+        </div>
+        <div class="original-price">$44.00 USD</div>
+        <div class="unit-selection-container">
+          <div class="unit-selection">
+            <div>#1</div>
+            <span class="size">Size</span>
+            <span class="color">Color</span>
+            <select>
+              <option>S</option>
+              <option>M</option>
+              <option>L</option>
+            </select>
+            <select>
+              <option>Colour</option>
+              <option>Red</option>
+              <option>Blue</option>
+            </select>
+          </div>
+          <div class="unit-selection">
+            <div>#2</div>
+            <select>
+              <option>S</option>
+              <option>M</option>
+              <option>L</option>
+            </select>
+            <select>
+              <option>Colour</option>
+              <option>Red</option>
+              <option>Blue</option>
+            </select>
+          </div>
+        </div>
+      </div>
+
+      <div class="delivery">
+        <div class="free-delivery">Free Delivery</div>
+        <div class="total">Total : $18.00 USD</div>
+      </div>
+      <button class="add-to-cart">+ Add to Cart</button>
+      <div class="powered-by">@ Powered by Pumper</div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
